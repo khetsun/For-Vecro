@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+************************************************************************************************
+.Header{
+  height: 650px;
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header .head{
+  background-color: white;
+  height: 750px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header nav{
+  padding: 30px 60px 30px 60px;
+  position: relative;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Header nav ul li a{
+  color: whitesmoke;
+}
+.Header nav ul li a:hover{
+  color: #005f69;
+}
+.Header ul button{
+  background-color: #005f69;
+  color: white;
+}
+.Header ul button:hover{
+  background-color: transparent;
+  border-style:solid;
+  border-color:#005f69;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Header .video-bg{
+position: absolute;
+opacity: 10;
 }
+@media (min-aspect-ratio:16/9){
+  .Header .video-bg{
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio:16/9){
+  .Header .video-bg{
+    width: auto;
+    height: 100%;
+  }
+}
+.Header .banner {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ position: absolute;
+ 
+ top: 50%;
+ right: 30%;
+ text-align: left;
+ color: whitesmoke;
+ margin-left: 5%;
+}
+.Header .banner h1{
+  font-size: 3.3rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+.Header .banner p{
+  font-size: larger;
+}
+/***************************************************************************************************************/
+.container{
+  text-align: left;
+  padding: 2% 10% 2% 10%;
+  line-height: 1.5rem;
+}
+.container img{
+width: 100%;
+height: auto;
+}
+.container h1{
+  padding-bottom: 17px;
+}
+.container h3{
+  color: #007FFF;
+}
+/****************************************************************************************************************/
+.slides {
+  text-align: center;
+  color: whitesmoke;
+} 
+.slides .first {
+   background-color: #005f69;
+   padding: 2% 15%;
+ }
+/*************************************************************************************************************/
+.team-main{
+  text-align: center;
+}
+/* .team-main .first-team{
+  background-image: url("https://uploads-ssl.webflow.com/5fc5d90a8dee63ce71c3ab53/5fc65b73dc4cb65b14d016a6_18077318_1858612617711924_5779804804304362897_o.jpg");
+  background-size: 100px;
+  background-repeat: no-repeat;
+} */
+.team-main .team-heading{
+  margin: 50px 0;
+}
+.team-main .row{
+  margin: 40px 80px;
+}
+.team-main .card{
+  text-align: left;
+  color: whitesmoke;
+  padding: 20px 0 0 5px;
+}
+.team-main .card-one{
+  background: url("https://uploads-ssl.webflow.com/5fc5d90a8dee63ce71c3ab53/5fc65b73dc4cb65b14d016a6_18077318_1858612617711924_5779804804304362897_o.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:200px;
+  background-position-y: -60px;
+}
+.team-main .card-two{
+  background: url("https://uploads-ssl.webflow.com/5fc5d90a8dee63ce71c3ab53/5fc65c5910e3c77d45ef1e81_78165174_1991932584285265_5241668943776579584_o.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:200px;
+  background-position-y: -50px;
+}
+.team-main .facebook-icon{
+ padding-top: 100px;
+}
+/******************************************************************************************************************/
+.main-awards{
+  text-align: center;
+  background-color: #282828;
+  color: whitesmoke;
+ padding: 5% 12%;
+}
+.main-awards .img-one{
+  width: 45%;
+}
+.main-awards .img-two{
+  width: 65%;
+  padding: 25px 0;
+}
+.main-awards .img-three{
+  width: 65%;
+  padding-bottom: 30px;
+}
+/**************************************************************************************************************/
+.trusted-by{
+  text-align: center;
+  padding: 20px 50px;
+}
+/* .trusted-by .components{
+  text-align: right;
+} */
+.trusted-by .trusted-one{
+  width: 25%;
+}
+.trusted-by .trusted-two{
+  width: 40%;
+}
+.trusted-by .trusted-three{
+  width: 40%;
+}
+.trusted-by .trusted-four{
+  width: 40%;
+}
+.trusted-by .trusted-five{
+  width: 60%;
+}
+/*****************************************************************************************************/
+.footer-main{
+  background-color:#282828 ;
+  padding: 40px 90px;
+}
+.footer-main .footer-logo{
+  width: 30%;
 }
