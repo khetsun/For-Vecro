@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/For-Vecro/static/css/main.14969801.chunk.css",
+    "main.js": "/For-Vecro/static/js/main.605127f0.chunk.js",
+    "main.js.map": "/For-Vecro/static/js/main.605127f0.chunk.js.map",
+    "runtime-main.js": "/For-Vecro/static/js/runtime-main.30cb7372.js",
+    "runtime-main.js.map": "/For-Vecro/static/js/runtime-main.30cb7372.js.map",
+    "static/css/2.818011ed.chunk.css": "/For-Vecro/static/css/2.818011ed.chunk.css",
+    "static/js/2.d78cb792.chunk.js": "/For-Vecro/static/js/2.d78cb792.chunk.js",
+    "static/js/2.d78cb792.chunk.js.map": "/For-Vecro/static/js/2.d78cb792.chunk.js.map",
+    "static/js/3.66a60235.chunk.js": "/For-Vecro/static/js/3.66a60235.chunk.js",
+    "static/js/3.66a60235.chunk.js.map": "/For-Vecro/static/js/3.66a60235.chunk.js.map",
+    "index.html": "/For-Vecro/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/For-Vecro/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.14969801.chunk.css.map": "/For-Vecro/static/css/main.14969801.chunk.css.map",
+    "static/js/2.d78cb792.chunk.js.LICENSE.txt": "/For-Vecro/static/js/2.d78cb792.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30cb7372.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.d78cb792.chunk.js",
+    "static/css/main.14969801.chunk.css",
+    "static/js/main.605127f0.chunk.js"
+  ]
+}
